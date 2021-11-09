@@ -1,15 +1,15 @@
-import { Component } from 'react'
+import React from 'react'
 import {footer } from 'react-bootstrap'
 
 
 const MyFooter = () => (
-  
+   
 
-  <footer className="footer bg-dark sticky-bottom">
-    <div class="container">
-      <span class="text-muted">Place sticky footer content here.</span>
-    </div>
-  </footer>
+
+     <footer className="d-flex bg-dark">
+            <span className="text-white m-auto"><strong>Strive School</strong> - Copyright 2021</span>
+        </footer>
+    
 )
 
 export default MyFooter

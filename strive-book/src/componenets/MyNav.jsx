@@ -1,5 +1,6 @@
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+import React from 'react'
+import {Navbar,Nav} from 'react-bootstrap'
+
 
 const MyNav = (props) => (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
