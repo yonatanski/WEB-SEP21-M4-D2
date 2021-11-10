@@ -2,12 +2,12 @@ import {Jumbotron,Container} from 'react-bootstrap'
 
 
 const Welcome = (props) => (
- <Jumbotron fluid className="mt-2">
- <img className="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcqepcW5sTg3jOGNKksN7_QvIkY6S3qiWV8Q&usqp=CAU" alt="" />
-    <h1 fluid  className="ml-2">Strive Book Store</h1>
-    <p className="ml-1">
+ <Jumbotron  className="mt-0 jambo">
+
+    <h1  className="ml-2 mt-5 text-white">Strive Book Store</h1>
+    <strong className="ml-2 text-white">
       You will find a collection of books here
-    </p>
+    </strong>
   
 </Jumbotron>
 )
