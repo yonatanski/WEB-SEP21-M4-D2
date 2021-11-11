@@ -41,18 +41,20 @@ footer {
   padding: 1.2em;
   width: 100%;
   bottom: 0px;
-  z-index:1;
-  height:100px;
+  z-index: 1;
+  height: 100px;
 }
 .book-card {
-  width: 33%;
-  object-fit:cover;
+  width: 20px;
 }
-.jambo{
-  background-image:url("https://www.thespruce.com/thmb/YPjbjXExku3d_pmVrVrlgnJEwPY=/4543x2555/smart/filters:no_upscale()/how-to-sell-used-books-for-the-most-cash-1388970-01-7815a93d4c95431999e1b5192ece1699.jpg");
-  background-size:cover;
-  height:300px;
+.book-card2 {
+  width: 33px;
 }
-.jambo h1{
-  font-size:4rem;
+.jambo {
+  background-image: url("https://www.thespruce.com/thmb/YPjbjXExku3d_pmVrVrlgnJEwPY=/4543x2555/smart/filters:no_upscale()/how-to-sell-used-books-for-the-most-cash-1388970-01-7815a93d4c95431999e1b5192ece1699.jpg");
+  background-size: cover;
+  height: 300px;
+}
+.jambo h1 {
+  font-size: 4rem;
 }
